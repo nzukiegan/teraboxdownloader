@@ -10,7 +10,7 @@ if (!fs.existsSync(VIDEOS_PATH)) {
 }
 
 const API_URL = "http://192.168.100.16:8081";
-const TELEGRAM_BOT_TOKEN = "7642274113:AAFXa0Ssniv1y9RdzUAWSgbiCY6N5j8UzV0";
+const TELEGRAM_BOT_TOKEN = "your bot token";
 const bot = new TelegramBot(TELEGRAM_BOT_TOKEN, {
     polling: true,
     baseApiUrl: API_URL,
